@@ -17,7 +17,7 @@ This project is actively being worked on, with new features, UI improvements, an
 ## 🛠️ Tech Stack
 - HTML
 - CSS
-- JavaScript (Basics)
+- JavaScript 
 
 ## 📌 Purpose
 This project is being developed as part of a learning journey and a personal initiative to build something meaningful around mental health and self-care.
