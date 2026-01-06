@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mental Health Journal</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="menu-icon" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="logo">MindJournal</div>
+
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#">Journal</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+
+    <div class="auth-buttons">
+      <a href="#" class="btn btn-signin">Sign In</a>
+      <a href="#" class="btn btn-signup">Sign Up</a>
+    </div>
+  </div>
+</nav>
+
+<div class="overlay" id="overlay"></div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>A Quiet Place to Sit<br>With Your Thoughts.</h1>
+    <p>No rush. No judgment. Just you.</p>
+    <button onclick="location.href= 'journal.html'">
+      Start Writing
+    </button>
+  </div>
+</section>
+
+<!-- MOOD -->
+<section class="mood-section">
+  <h2>How are you feeling today?</h2>
+
+  <div class="mood-cards">
+    <div class="mood">😊 Calm</div>
+    <div class="mood">😔 Low</div>
+    <div class="mood">😟 Anxious</div>
+    <div class="mood">😄 Happy</div>
+  </div>
+</section>
+
+<!-- SOFT INFO -->
+<section class="soft-info">
+  <p>
+    This space is yours. Write freely, track your emotions,
+    and come back whenever you need a moment of calm.
+  </p>
+</section>
+
+<!--ABOUT SECTION-->
+<section class="about-section" id="about">
+  <div class="about-container">
+    <h2>About MindJournal</h2>
+    <p>
+      MindJournal is your personal sanctuary for reflection and growth. 
+      We believe that taking time to understand your thoughts and emotions 
+      is essential for mental well-being.
+    </p>
+    <p>
+      Whether you're navigating challenging times or simply want to document 
+      your journey, MindJournal provides a safe, judgment-free space to express 
+      yourself freely.
+    </p>
+    <p>
+      Track your moods, explore your feelings, and discover patterns in your 
+      emotional landscape. Your mental health matters, and we're here to support 
+      you every step of the way.
+    </p>
+  </div>
+</section>
+
+<!-- BACK TO TOP BUTTON -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
+<!-- SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <button class="close-btn" id="closeBtn">&times;</button>
+  <a href="#">Mood Tracker</a>
+  <a href="#">Period Tracker</a>
+  <a href="#">Past Entries</a>
+  <a href="#">Prompts</a>
+  <a href="#">Articles</a>
+</aside>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
