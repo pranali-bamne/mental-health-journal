@@ -23,7 +23,7 @@ This project is actively being worked on, with new features, UI improvements, an
 This project is being developed as part of a learning journey and a personal initiative to build something meaningful around mental health and self-care.
 
 ## 🚀 Live Demo
-(Will be updated once deployed using GitHub Pages)
+(➡️ https://pranali-bamne.github.io/mental-health-journal/)
 
 ## 📈 Development Approach
 - Incremental development
